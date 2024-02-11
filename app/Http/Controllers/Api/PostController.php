@@ -39,7 +39,7 @@ class PostController extends Controller
     {
         try {
             $post = Post::where('id', $id)->get();
-            $posts = POst::where('user_id', $post[0]->user_id)->get();
+            $posts = Post::where('user_id', $post[0]->user_id)->get();
 
             $ids = $posts->map(function ($post) {
                 return $post->id;
