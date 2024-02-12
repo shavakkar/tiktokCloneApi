@@ -1,13 +1,14 @@
 <?php
 
-use App\Http\Controllers\Api\CommentController;
-use App\Http\Controllers\Api\GlobalController;
-use App\Http\Controllers\Api\HomeController;
-use App\Http\Controllers\Api\PostController;
-use App\Http\Controllers\Api\ProfileController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\Api\HomeController;
+use App\Http\Controllers\Api\LikeController;
+use App\Http\Controllers\Api\PostController;
 use App\Http\Controllers\Api\UserController;
+use App\Http\Controllers\Api\GlobalController;
+use App\Http\Controllers\Api\CommentController;
+use App\Http\Controllers\Api\ProfileController;
 use PHPUnit\Framework\Attributes\PostCondition;
 
 /*
